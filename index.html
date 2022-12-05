@@ -11,15 +11,19 @@
 </head>
 
 <body>
+  <img src="play_buttons.png" id="play"></img>
   <video id="conteneur">
-    <source id="video" src="Rick Astley - Never Gonna Give You Up (Official Music Video).mp4" type="video/mp4">
+    <source id="video" src="Rickroll.mp4" type="video/mp4">
   </video>
   <div>
+    <progress id="progress"></progress>
     <div id="boutons">
-      <p>BACK 10S</p>
-      <p>SKIP 10S</p>
-      <p>RESET</p>
+      <p class="buttons" id="back">BACK 10S</p>
+      <p class="buttons" id="skip">SKIP 10S</p>
+      <p class="buttons" id="reset">RESET</p>
     </div>
+
+
   </div>
 
   <script src="./js/app.js" type="module"></script>

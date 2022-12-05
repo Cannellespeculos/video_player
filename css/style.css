@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: lightslategray;
 }
 
 #conteneur :hover {
@@ -31,4 +32,24 @@ div {
     font-size: 20px;
     color: white;
     font-family: sans-serif;
+}
+
+#play {
+    position: absolute;
+    top: 280px;
+    left: 730px;
+    width: 200px;
+    display: block;
+}
+
+.buttons :hover {
+    cursor: pointer;
+}
+
+#progress {
+    position: absolute;
+    right: 400px;
+    width: 400px;
+    top: 660px;
+    color: #635190;
 }
