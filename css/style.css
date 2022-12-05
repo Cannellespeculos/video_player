@@ -42,7 +42,7 @@ div {
     display: block;
 }
 
-.buttons :hover {
+.buttons:hover {
     cursor: pointer;
 }
 

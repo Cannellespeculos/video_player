@@ -6,7 +6,8 @@ const conteneur = document.getElementById("conteneur")
 const play = document.getElementById("play")
 const progress = document.getElementById("progress")
 let isPaused = true;
-console.log(conteneur);
+
+progress.max = conteneur.duration
 
 conteneur.addEventListener("click", () => {
     if (isPaused) {
@@ -20,6 +21,10 @@ conteneur.addEventListener("click", () => {
 
     }
 
+})
+
+conteneur.addEventListener("timeupdate", (ev) => {
+    progress.value = conteneur.currentTime
 })
 
 play.addEventListener("click", () => {
@@ -54,4 +59,5 @@ skip.addEventListener("click", () => {
     play.style.display = "none"
 
 })
+
 
