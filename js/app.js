@@ -1,7 +1,6 @@
 const back = document.getElementById("back")
 const skip = document.getElementById("skip")
 const reset = document.getElementById("reset")
-const video = document.getElementById("video")
 const conteneur = document.getElementById("conteneur")
 const play = document.getElementById("play")
 const progress = document.getElementById("progress")

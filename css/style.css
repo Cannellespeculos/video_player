@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightslategray;
+    background: linear-gradient(#6f5184, 70%, pink);
 }
 
 #conteneur :hover {
@@ -52,4 +52,5 @@ div {
     width: 400px;
     top: 660px;
     color: #635190;
+    accent-color: #a64de7;
 }
